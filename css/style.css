@@ -1,0 +1,62 @@
+:root {
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+/* white color #FFFFFF */   
+/* black color #000000 */
+/* adress color rgba(255, 255, 255, 0.6) */
+
+ul {list-style: none;}
+a {text-decoration: none;}
+
+body {
+    background-color: var(--primary-background-color); 
+    color: var(--primary-text-color);
+}
+
+.logo {color: var(--accent-color);}
+.logo-studio {color: #000000;}
+
+.site-nav a {color: var(--title-text-color);}
+.site-nav a:hover,.site-nav a:focus {
+    color: var(--accent-color);}
+.site-nav a.current {
+    color: var(--accent-color);
+}
+
+.auth-nav a{color:var(--primary-text-colors)}
+.auth-nav a:hover,.auth-nav a:focus { color: var(--accent-color);}
+
+.hero {background-color: var(--footer-background-color);}
+.hero-title {color: #FFFFFF;}
+
+.section-title {color: var(--title-text-color);}
+
+.feature-list .title {color: var(--title-text-color);}
+
+.staff {background-color: var(--secondary-background-color);}
+.staff-list .title {color: var(--title-text-color);}
+
+footer {background-color: var(--footer-background-color);}
+footer .logo-studio {color: #FFFFFF;}
+.contacts {color: #FFFFFF;}
+.contacts a {color: rgba(255, 255, 255, 0.6);}
+
+.button {}
+.button.primary {color: var(--primary-background-color); 
+    background-color: var(--accent-color);}
+.button.secondary {color: var(--title-text-color);
+    background-color: var(--secondary-background-color);}
+.button.secondary:hover, .button.secondary:focus {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);}
+    
+    
+/* Portfolio styles */
+.example-list .title {
+    color: var(--title-text-color);
+}
